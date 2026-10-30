@@ -96,8 +96,9 @@ li + li { margin-top: .35rem; }
 .section-heading-inverse .section-deck { color: #e4e9e9; }
 .prose { max-width: 46rem; }
 .prose p { margin-bottom: 1.2rem; }
-.about-layout { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(15rem, .65fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
-.about-photo { width: min(100%, 26rem); margin: 3rem auto 0; padding: .75rem; border: 1px solid var(--line); background: var(--white); }
+.about-layout { display: grid; grid-template-columns: minmax(15rem, .75fr) minmax(0, 1.25fr); gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.about-sidebar { display: grid; gap: 1.5rem; align-content: start; }
+.about-photo { width: min(100%, 26rem); margin: 0 auto; padding: .75rem; border: 1px solid var(--line); background: var(--white); }
 .about-photo img { display: block; width: 100%; height: auto; }
 .about-photo figcaption { margin-top: .75rem; color: var(--muted); font-size: .9rem; line-height: 1.5; text-align: center; }
 .about-callout { padding: 1.5rem 1.6rem; border-top: 3px solid var(--forest); background: var(--white); }
@@ -228,6 +229,7 @@ li + li { margin-top: .35rem; }
   .hero-inner { padding-top: 3.7rem; padding-bottom: 3.6rem; }
   .hero-footer { justify-content: flex-start; gap: .4rem 1.3rem; font-size: .76rem; }
   .about-layout, .principle-strip, .philosophy-grid, .resume-layout, .artifact-details, .upcoming-list, .evaluations-layout, .home-link-grid { grid-template-columns: 1fr; }
+  .about-sidebar { width: min(100%, 26rem); margin: 0 auto; }
   .philosophy-nav-list { grid-template-columns: 1fr; }
   .principle-strip { gap: 1.25rem; }
   .resume-sidebar { padding: 1.3rem 0 0; border-left: 0; border-top: 1px solid var(--line); }
