@@ -302,3 +302,18 @@ body.evaluations-page .nav-list a[aria-current="location"] {
   text-decoration: none;
 }
 .resume-pdf-link a:hover { color: var(--blue-dark); background: var(--sage); }
+
+.experience-photo {
+  max-width: 25rem;
+  margin: 0 0 2rem;
+  padding: .55rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+.experience-photo img { display: block; width: 100%; height: auto; }
+.experience-photo figcaption {
+  padding: .65rem .35rem .1rem;
+  color: var(--muted);
+  font-size: .84rem;
+  line-height: 1.5;
+}
