@@ -88,6 +88,9 @@ li + li { margin-top: .35rem; }
 .section-sage { background: var(--sage); }
 .section-blue { color: var(--white); background: var(--blue-dark); }
 .section-sand { background: var(--sand); }
+.section-green { color: var(--white); background: var(--forest-dark); }
+.section-green .eyebrow { color: #f0dfc4; }
+.section-green .section-deck { color: #e4e9e9; }
 .section-heading { max-width: 47rem; margin-bottom: 3rem; }
 .section-title { max-width: none; font-size: clamp(2.4rem, 4.2vw, 3.75rem); }
 .section-heading .eyebrow { color: var(--forest); }
@@ -198,6 +201,8 @@ li + li { margin-top: .35rem; }
 .contact-email { margin: 0; font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 750; }
 .contact-email a { color: var(--forest-dark); text-decoration-thickness: .08em; }
 .contact-email a:hover { color: var(--forest-dark); }
+.section-green .contact-email a { color: var(--white); }
+.section-green .contact-email a:hover { color: #f0dfc4; }
 .home-overview { padding-top: clamp(3.5rem, 6vw, 5rem); }
 .home-link-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
 .home-link-card { min-height: 13rem; padding: 1.4rem; border-top: 3px solid var(--forest); background: var(--white); }
