@@ -161,12 +161,6 @@ li + li { margin-top: .35rem; }
 .resume-block ul { margin: .5rem 0 0; padding-left: 1.15rem; }
 
 .artifact-list { display: grid; grid-template-columns: 1fr; gap: 2rem; }
-.materials-tabs { margin: 2rem 0 3.2rem; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; }
-.materials-tab { min-height: 3rem; display: flex; align-items: center; justify-content: center; padding: .65rem 1rem; border: 1px solid rgba(255,255,255,.38); border-left: 3px solid #d8c3a5; color: var(--white); background: rgba(255,255,255,.06); font-size: .94rem; font-weight: 700; line-height: 1.35; text-align: center; text-decoration: none; }
-.materials-tab:hover { color: var(--blue-dark); background: var(--paper); }
-.materials-category { scroll-margin-top: 1rem; }
-.materials-category + .materials-category { margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,.35); }
-.materials-category-title { margin-bottom: 1.25rem; color: var(--white); font-family: var(--serif); font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 500; }
 .artifact { padding: clamp(1.4rem, 3vw, 2.2rem); color: var(--ink); background: var(--paper); border-top: 4px solid #d8c3a5; }
 .artifact-placeholder { border-top-color: var(--sage-deep); }
 .artifact-meta { margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: .4rem 1.3rem; color: var(--blue); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
@@ -233,7 +227,7 @@ li + li { margin-top: .35rem; }
   .philosophy-layout { grid-template-columns: 1fr; }
   .philosophy-sidebar { position: static; padding: 0 0 1.4rem; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.35); }
   .philosophy-nav-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .home-link-grid, .materials-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-link-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 680px) {
   body { font-size: .98rem; }
@@ -243,7 +237,6 @@ li + li { margin-top: .35rem; }
   .hero-inner { padding-top: 3.7rem; padding-bottom: 3.6rem; }
   .hero-footer { justify-content: flex-start; gap: .4rem 1.3rem; font-size: .76rem; }
   .about-layout, .principle-strip, .philosophy-grid, .resume-layout, .artifact-details, .upcoming-list, .evaluations-layout, .home-link-grid { grid-template-columns: 1fr; }
-  .materials-tabs { grid-template-columns: 1fr; }
   .about-sidebar { width: min(100%, 26rem); margin: 0 auto; }
   .philosophy-nav-list { grid-template-columns: 1fr; }
   .principle-strip { gap: 1.25rem; }
