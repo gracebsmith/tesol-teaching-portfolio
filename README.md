@@ -12,6 +12,7 @@ A responsive, accessible multi-page portfolio prepared for GitHub Pages. The sit
 ## Update the portfolio
 
 - Edit the relevant page: `about.html`, `teaching-philosophy.html`, `experience.html`, `teaching-materials.html`, `evaluations.html`, or `contact.html`.
+- The Teaching Philosophy snapshot links to six subpages named `philosophy-*.html`; update their shared side navigation if you add or rename a philosophy.
 - Update the top navigation links on each page if you add, remove, or rename a page.
 - Keep the PDF files in `assets/documents/` and update their links in `teaching-materials.html` if filenames change.
 
