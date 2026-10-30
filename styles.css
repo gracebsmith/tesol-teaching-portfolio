@@ -198,6 +198,14 @@ li + li { margin-top: .35rem; }
 .status-label { margin-bottom: .7rem; color: var(--forest-dark); font-size: .75rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .evaluation-placeholder h3 { margin-bottom: .7rem; color: var(--forest-dark); font-family: var(--serif); font-size: 1.5rem; font-weight: 500; }
 .evaluation-placeholder p:last-child { margin-bottom: 0; color: #394641; }
+.materials-section .philosophy-nav-link:hover { color: var(--forest-dark) !important; background: #f0e6d5; }
+.materials-section .philosophy-nav-link[aria-current="page"] { color: var(--forest-dark) !important; background: var(--paper); border-color: #d8c3a5; }
+.evaluations-section .eyebrow { color: var(--blue); }
+.evaluations-section .evaluation-placeholder { border-left-color: var(--blue); background: var(--sand); }
+.evaluations-section .status-label { color: var(--blue-dark); }
+.evaluations-section .evaluation-placeholder h3 { color: var(--blue-dark); }
+body.evaluations-page .nav-list a[aria-current="page"] { color: var(--blue-dark); border-bottom-color: var(--blue); }
+body.evaluations-page .nav-list a:hover { color: var(--blue); border-bottom-color: var(--blue); }
 .contact-layout { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
 .contact-layout .section-deck { max-width: 38rem; }
 .contact-email { margin: 0; font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 750; }
