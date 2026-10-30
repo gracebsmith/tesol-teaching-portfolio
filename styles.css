@@ -101,6 +101,11 @@ li + li { margin-top: .35rem; }
 .about-callout .eyebrow { color: var(--blue); }
 .quote-placeholder-box { min-height: 15rem; }
 .quote-placeholder { min-height: 9rem; margin: .4rem 0 0; padding: 1.5rem; display: grid; place-items: center; border: 1px dashed var(--line); color: var(--muted); background: var(--paper); text-align: center; }
+.about-quote { margin: .4rem 0 0; padding: 1.35rem; border-left: 4px solid var(--sand); color: var(--ink); background: var(--paper); }
+.about-quote p { margin: 0 0 .9rem; }
+.about-quote p:first-child { font-family: var(--serif); font-size: 1.2rem; line-height: 1.55; }
+.about-quote .quote-translation { color: var(--muted); font-size: .95rem; line-height: 1.6; }
+.about-quote cite { display: block; color: var(--blue); font-size: .84rem; font-style: normal; font-weight: 700; }
 .principle-strip { margin-top: 3.3rem; padding-top: 1.5rem; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.7rem; }
 .principle-strip h3 { margin-bottom: .5rem; color: var(--forest-dark); font-size: 1.1rem; }
 .principle-strip p { margin: 0; color: var(--muted); font-size: .94rem; }
